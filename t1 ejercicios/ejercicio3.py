@@ -1,0 +1,10 @@
+num1 = int(input ("Dime el primer numero "))
+num2 = int(input ("Dime el segundo numero "))
+
+print ("La suma es ", (num1 + num2)) 
+print ("La resta es ", (num1 - num2)) 
+print ("La multiplicacion es ", (num1 * num2)) 
+print ("La division es ", (num1 / num2)) 
+print ("La division entera es ", (num1 // num2))
+print ("La potencia es ", (num1 ** num2)) 
+print ("El modulo es ", (num1 % num2)) 
