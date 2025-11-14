@@ -38,3 +38,17 @@ while vidas>0:
                     print("Te quedan", vidas,"vidas")
                     print("la letra NO esta en la palabra")
                     print("Letras ya dichas:", letras_dichas)
+            
+        else:
+            if letra == palabra_aleatoria:
+                print("Has acertado la palabra")
+                break
+            else: 
+                vidas = vidas - 1
+                print("Esa no es la palabra")
+                print("te quedan", vidas,"vidas")
+                print("Letras ya dichas:", letras_dichas)
+if vidas == 0:
+    print("\nHas perdido, la palabra era", palabra_aleatoria)
+else: 
+    print("Enhorabuena, la palabra era", palabra_aleatoria)
